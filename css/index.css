@@ -160,22 +160,23 @@ p {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-content: flex-start;
   /* margin-top: 5%; */
   margin-bottom: 5%;
   /* vertical-align: bottom; */
 }
 
 img {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* margin-bottom: 3%; */
-  margin-right: 35%;
+  /* margin-right: 50%; */
 }
 
 nav {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   /* border: 2px solid red; */
   color: grey;
   margin-top: 5%;
@@ -185,6 +186,12 @@ nav {
 nav a {
   /* border: 2px solid red; */
   margin-top: 3%;
+}
+
+/* push down the top image, jumbo */
+.top-image {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .top-content {
