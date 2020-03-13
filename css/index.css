@@ -158,6 +158,8 @@ p {
   margin: 0 auto;
 }
 
+/* Start new code for nav header, logo, image */
+
 header {
   display: flex;
   justify-content: space-around;
@@ -166,11 +168,6 @@ header {
   margin-bottom: 5%;
   /* vertical-align: bottom; */
 }
-
-/* img {
-  /* border: 1px solid red; */
-/* margin-bottom: 3%; */
-/* margin-right: 50%; */
 
 nav {
   width: 100%;
@@ -210,6 +207,11 @@ nav a {
 .middle-content {
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
+}
+
+/* box backgrounds */
+Box 1 {
+  background-color: teal;
 }
 
 .middle-content h2 {
